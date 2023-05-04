@@ -137,7 +137,10 @@ color: #2E2F42;
     padding-top: 188px;
     padding-bottom: 188px;
 }
-
+.general-species-list{
+padding-top: 120px;
+padding-bottom: 120px;
+}
 .title{
     font-family: 'Roboto', sans-serif;
     font-style: normal;
@@ -205,8 +208,6 @@ line-height: 1.2;
 letter-spacing: 0.02em;
 color: #2E2F42;
 margin-bottom: 8px;
-padding-top: 120px;
-padding-bottom: 120px;
 }
 .species-list-item {
     font-family: 'Roboto', sans-serif;

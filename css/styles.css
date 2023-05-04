@@ -294,11 +294,11 @@ color: #434455;
 /* foorer */
 .footer-top-page{
     background: #2E2F42;
-    padding: 100px 0;
 }
-.footer-top-page {
-    display: inline-block;
-
+.page-footer {
+    background: #2E2F42;
+    padding-top: 100px;
+    padding-bottom: 100px;
 }
 .info-footer {
 font-family: 'Roboto', sans-serif;

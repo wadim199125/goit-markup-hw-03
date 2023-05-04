@@ -78,7 +78,6 @@ button {
     font-style: normal;
     display: flex;
     gap: 40px;
-    margin-right: 40px
 }
 .contact-info {
 font-family: 'Roboto', sans-serif;
@@ -100,7 +99,7 @@ color: #434455;
     align-items: center;
 }
 .header-logo {
-    margin-right: 76;
+    margin-right: 76px;
 }
 
 .logo-studio {
@@ -194,8 +193,6 @@ color: #2E2F42;
 .species {
     display: flex;
     justify-content: space-between;
-    padding-top: 120px;
-    padding-bottom: 120px;
    width: 1128px;
    gap: 24px;
 }
@@ -208,6 +205,8 @@ line-height: 1.2;
 letter-spacing: 0.02em;
 color: #2E2F42;
 margin-bottom: 8px;
+padding-top: 120px;
+padding-bottom: 120px;
 }
 .species-list-item {
     font-family: 'Roboto', sans-serif;

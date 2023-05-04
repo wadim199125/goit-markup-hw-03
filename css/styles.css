@@ -99,6 +99,9 @@ color: #434455;
     gap: 40px;
     align-items: center;
 }
+.header-logo {
+    margin-right: 76;
+}
 
 .logo-studio {
 font-family: 'Raleway', sans-serif;
@@ -117,8 +120,6 @@ color: #2E2F42;
     letter-spacing: 0.03em;
     text-transform: uppercase;
     color: #4D5AE5;
-    margin-right: 76px;
-    margin-bottom: 16px;
     display: inline-block;
 }
 .menu-link {
@@ -290,6 +291,10 @@ color: #434455;
 }
 
 /* foorer */
+.footer-logo
+{
+    margin-bottom: 16px;
+}
 .footer-top-page{
     background-color: #2E2F42;
    

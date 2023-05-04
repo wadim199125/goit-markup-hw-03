@@ -276,7 +276,7 @@ color: #434455;
 }
 .team-list {
     flex-basis:calc((100% - 3 * 24px) / 4);
-    back-ground-color: #FFFFFF;
+    background-color: #FFFFFF;
     border-radius: 0 0 4px 4px;
 }
 

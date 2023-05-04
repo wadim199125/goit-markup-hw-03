@@ -233,12 +233,10 @@ text-transform: capitalize;
 color: #2E2F42;
 }
 
-.types-work {
-    padding-bottom: 120px;
-}
 .types-list {
     display: flex;
     gap: 24px;
+    border-radius: 0px 0px 4px 4px;
 }
 /* section3 */
 .piople-work-item {
@@ -247,8 +245,10 @@ color: #2E2F42;
 .types-gen-title {
     margin-bottom: 72px;
 }
+.types-rob {
+    padding-bottom: 120px;
+}
 .people-windows {
-    border-radius: 0px 0px 4px 4px;
     padding: 32px 16px;
 }
 .people {
@@ -347,9 +347,6 @@ margin-top: 16px;
     cursor: pointer;
     border: 1px solid transparent;
 }
-.portfolio-gen {
-    padding: 96px 0 120px;
-}
 .list-button {
     display: flex;
     justify-content: center;
@@ -377,4 +374,6 @@ margin-top: 16px;
 .pege-header-conteiner {
     margin: 0px;
 }
-
+.portfolio-button {
+    padding: 96px 0 120px;
+}

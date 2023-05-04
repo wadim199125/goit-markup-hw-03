@@ -293,10 +293,10 @@ color: #434455;
 
 /* foorer */
 .footer-top-page{
-    background: #2E2F42;
+    background-color: #2E2F42;
 }
 .page-footer {
-    background: #2E2F42;
+    background-color: #2E2F42;
     padding-top: 100px;
     padding-bottom: 100px;
 }

@@ -81,7 +81,7 @@ button {
     margin-right: 40px
 }
 .contact-info {
-    font-family: 'Roboto', sans-serif;
+font-family: 'Roboto', sans-serif;
 font-style: normal;
 font-weight: 400;
 font-size: 16px;
@@ -105,8 +105,6 @@ font-family: 'Raleway', sans-serif;
 font-weight: 800;
 font-size: 18px;
 line-height: 1.17;
-display: flex;
-align-items: center;
 letter-spacing: 0.03em;
 text-transform: uppercase;
 color: #2E2F42;
@@ -116,12 +114,12 @@ color: #2E2F42;
     font-weight: 800;
     font-size: 18px;
     line-height: 1.17;
-    display: flex;
-    align-items: center;
     letter-spacing: 0.03em;
     text-transform: uppercase;
     color: #4D5AE5;
     margin-right: 76px;
+    margin-bottom: 16px;
+    display: inline-block;
 }
 .menu-link {
 font-family: 'Roboto', sans-serif;
@@ -294,6 +292,7 @@ color: #434455;
 /* foorer */
 .footer-top-page{
     background-color: #2E2F42;
+   
 }
 .page-footer {
     background-color: #2E2F42;
@@ -308,9 +307,10 @@ font-size: 16px;
 line-height: 1.5;
 letter-spacing: 0.02em;
 color: #F4F4FD;
-margin-top: 16px;
 max-width: 264px;
 }
+
+
 
 .logo-studio-footer {
 font-family: 'Raleway', sans-serif;
@@ -322,6 +322,8 @@ align-items: center;
 letter-spacing: 0.03em;
 text-transform: uppercase;
 color: #F4F4FD;
+margin-top: 16px;
+
 }
 /* portfolio */
 

@@ -42,6 +42,7 @@ button {
     margin-right: auto;
     padding-left: 15px;
     padding-right: 15px;
+    margin: 0; 
   }
 /* hrader */
 .page-header {
@@ -338,6 +339,7 @@ color: #F4F4FD;
     color: var(--white);
     background: #404BBF;
     cursor: pointer;
+    border: 1px solid transparent;
 }
 .portfolio-gen {
     padding: 96px 0 120px;

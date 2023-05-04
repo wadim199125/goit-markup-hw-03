@@ -326,14 +326,12 @@ color: #F4F4FD;
     font-weight: 500;
     font-size: 16px;
     line-height: 1.5;
-    display: flex;
-    align-items: center;
-    text-align: center;
     letter-spacing: 0.04em;
-    color: #4D5AE5;
-    background-color:#F4F4FD;
-    
-    
+    color: #4D5AE5; 
+    border: 1px solid #e7e9fc;
+    border: 1px solid transparent;
+    border-radius: 4px; 
+    padding: 12px 24px;
 }
 .button-clik:hover,
 .button-clik:focus {
@@ -341,3 +339,29 @@ color: #F4F4FD;
     background: #404BBF;
     cursor: pointer;
 }
+.portfolio-gen {
+    padding: 96px 0 120px;
+}
+.list-button {
+    display: flex;
+    justify-content: center;
+    gap:24px;
+    margin-bottom: 72px;
+}
+.portfolio-two-list {
+    display: flex;
+    flex-wrap: wrap;
+    column-gap: 24px;
+    row-gap: 48px;
+}
+.portfolio-item {
+    padding: 32px 16px;
+    border: 1px solid #e7e9fc;
+    border-top: none;
+    width: calc((100% - 48px) / 3);
+}
+.people {
+    margin-bottom: 8px ;
+
+}
+

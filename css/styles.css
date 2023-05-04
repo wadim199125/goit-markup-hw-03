@@ -36,13 +36,13 @@ button {
   img {
     display: block;
   }
-  .conteiner {
+  .container {
     width: 1158px;
     margin-left: auto;
     margin-right: auto;
     padding-left: 15px;
     padding-right: 15px;
-    margin: 0; 
+    margin: 0 auto;
   }
 /* hrader */
 .page-header {
@@ -64,9 +64,10 @@ button {
     display: flex;
     align-items: center;
 }
-.menu-item {
-    padding: 24px 0;
-}
+.menu-link {
+    padding-top: 24px;
+    padding-bottom: 24px;
+    }
 
 
 .menu-link:hover,
@@ -92,7 +93,7 @@ color: #434455;
 .contact-info:focus {
     color: #404BBF
 }
-/*futer*/
+/*footer*/
 .contact-nav {
     display: flex;
     gap: 40px;
@@ -195,6 +196,7 @@ color: #2E2F42;
     display: flex;
     justify-content: space-between;
     padding-top: 120px;
+    padding-bottom: 120px;
    width: 1128px;
    gap: 24px;
 }
@@ -206,7 +208,7 @@ font-size: 20px;
 line-height: 1.2;
 letter-spacing: 0.02em;
 color: #2E2F42;
-padding-bottom: 8px;
+margin-bottom: 8px;
 }
 .species-list-item {
     font-family: 'Roboto', sans-serif;
@@ -217,6 +219,9 @@ line-height: 1.5;
 letter-spacing: 0.02em;
 color: #434455;
 }
+.species-div {
+    width: calc((100% - 72px) / 4);
+    }
 /* section2 */
 .types-gen-title {
 font-family: 'Roboto', sans-serif;
@@ -231,13 +236,11 @@ color: #2E2F42;
 }
 
 .types-work {
-    padding-top: 120px;
     padding-bottom: 120px;
 }
 .types-list {
     display: flex;
     gap: 24px;
-    margin-bottom: 72px;
 }
 /* section3 */
 .piople-work-item {
@@ -248,6 +251,7 @@ color: #2E2F42;
 }
 .people-windows {
     border-radius: 0px 0px 4px 4px;
+    padding: 32px 16px;
 }
 .people {
     font-family: 'Roboto', sans-serif;
@@ -273,12 +277,14 @@ color: #434455;
 }
 .teim-list {
     flex-basis:calc ((100% - 3 * 24px) / 4);
+    back-ground-color: #FFFFFF;
+    border-radius: 0 0 4px 4px;
 }
 
 .team {
     background-color: #F4F4FD;
     display: flex;
-    column-gap: 24px;
+    gap: 24px;
 }
 .piople-list {
     background-color: #F4F4FD;
@@ -286,14 +292,12 @@ color: #434455;
 }
 
 /* foorer */
-.page-footer{
+.footer-top-page{
     background: #2E2F42;
     padding: 100px 0;
 }
 .footer-top-page {
     display: inline-block;
-    margin-bottom: 16px;
-    padding-left: 156px;
 
 }
 .info-footer {
@@ -304,8 +308,8 @@ font-size: 16px;
 line-height: 1.5;
 letter-spacing: 0.02em;
 color: #F4F4FD;
+margin-top: 16px;
 max-width: 264px;
-padding-top: 16px;
 }
 
 .logo-studio-footer {
@@ -367,5 +371,8 @@ color: #F4F4FD;
     padding: 32px 16px;
     border: 1px solid #e7e9fc;
     border-top: none;
+}
+.pege-header-conteiner {
+    margin: 0px;
 }
 

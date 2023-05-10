@@ -53,7 +53,6 @@ button {
   .pege-header-conteiner {
     display: flex;
     align-items: center;
-    justify-content: space-between;
   }
 .menu {
     display: flex;
@@ -75,9 +74,7 @@ button {
     color: #404BBF;
 }
 .contacts {
-    font-style: normal;
-    display: flex;
-    gap: 40px;
+    margin-left: auto;
 }
 .contact-info {
 font-family: 'Roboto', sans-serif;
@@ -195,8 +192,6 @@ padding-bottom: 120px;
 }
 .species {
     display: flex;
-    justify-content: space-between;
-   width: 1128px;
    gap: 24px;
 }
 .species-list {
@@ -240,9 +235,7 @@ color: #2E2F42;
     border-radius: 0px 0px 4px 4px;
 }
 /* section3 */
-.piople-work-item {
-    padding: 32px 16px 32px;
-}
+
 .types-gen-title {
     margin-bottom: 72px;
 }
@@ -251,6 +244,7 @@ color: #2E2F42;
 }
 .people-windows {
     padding: 32px 16px;
+    text-align: center;
 }
 .people {
     font-family: 'Roboto', sans-serif;
